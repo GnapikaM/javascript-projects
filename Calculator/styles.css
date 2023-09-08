@@ -1,0 +1,74 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    background-color: #EEEEEE;
+    color: #EEEEEE;
+}
+
+h1 {
+    margin-bottom: 3rem;
+    background-color: #374259;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 350px;
+    text-align: center;
+    padding: 1rem;
+    background-color: #374259;
+    border-radius: 10px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}   
+
+.container > div {
+    background-color: #374259;
+}
+
+.display {
+    display: flex;
+    justify-content: flex-end;
+}
+
+input[type= 'text'] {
+    height: 5rem;
+    width: 13rem;
+    margin-bottom: .5rem;
+    outline: none;
+    border: none;
+    background-color: #374259;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    border-radius: 10px;
+    text-align: right;
+    flex: 1;
+    font-size: 1.5rem;
+}
+
+.number-pad > div {
+    background-color: #374259;
+}
+
+input[type= 'button'] {
+    height: 3rem;
+    width: 3rem;
+    outline: none;
+    border: none;
+    margin: 4px;
+    background-color: #374259;
+    border-radius: 10px;
+    box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.8);
+    cursor: pointer;
+    transition: 0.2s ease-in-out;
+}
+
+#equal {
+    width: 7rem;
+}
+
+input[type= 'button']:focus {
+    background-color: #b6c4e2;
+}
