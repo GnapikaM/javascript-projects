@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Password Generator</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Geanerate a <span>Random Password</span></h1>
+        <div class="password">
+            <input type="text" id="password" readonly>
+            <ion-icon name="copy-outline" id="copyBtn"></ion-icon>
+            <ion-icon name="copy" id="filledCopyBtn"></ion-icon>
+        </div>
+        <button id="generateBtn"><img src="images/magic-wand.png" alt="">Generate Password</button>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
