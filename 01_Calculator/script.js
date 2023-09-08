@@ -32,13 +32,13 @@ document.addEventListener("keydown", handleKeyBoardPress);
 
 function appendToDisplay(value) {
     const display = document.querySelector("input[name='display']");
-    if(value === 'AC') {
+    if(value === 'ESC') {
         display.value = '';
     }
     else if(value === 'DE') {
         display.value = display.value.slice(0, -1); // delete the last character
     }
-    else if(value === '=') {
+    else if(value === 'ENTER') {
         display.value = eval(display.value);
     }
     else {
