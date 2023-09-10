@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo List App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="app">
+        <div class="container">
+            <div class="alert" id="alert-container">
+                <div class="icon" id="symbol"></div>
+                <div class="message">
+                    <span class="msg"></span>
+                </div>
+                <div class="icon" id="cancel">
+                    <ion-icon name="close-circle"></ion-icon>
+                </div>
+            </div>
+            <h1>Todo List</h1>
+            <form action="">    
+                <input type="text" name="name" id="input-box" placeholder="Add your task">
+                <button id="add-button">Add task</button>
+                <div class="filters">
+                    <ul class="left">
+                        <li class="active">All</li>
+                        <li>Pending</li>
+                        <li>Completed</li>
+                    </ul>
+                    <ul class="right">
+                        <li class="clearAll">Clear All</li>
+                    </ul>
+                </div>
+                <ul id="tasks"></ul>
+            </form>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
