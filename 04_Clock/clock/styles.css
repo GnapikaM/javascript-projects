@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+}
+
+.container {
+    height: 100vh;
+    width: 100%;
+    background: linear-gradient(135deg, #00B8A9, #A8E6CF);
+    position: relative;
+    color: #244b5f;
+}
+
+.hero {
+    height: 100vh;
+    background: url(../images/time.png);
+    background-repeat: no-repeat;
+    background-position: 20%;
+}
+
+.clock {
+    height: 12rem;
+    width: 30rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.day {
+    position: absolute;
+    left: 20%;
+    top: 10%;
+    font-size: 1.2rem;
+    color: #fff;
+    z-index: 1;
+}
+
+.day span {
+    margin: 0 .5rem;
+}
+
+.time {
+    width: 100%;
+    height: 100%;
+    background: rgba(97, 0, 105, 0.11);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    backdrop-filter: blur(10px);
+}
+
+.time span {
+    font-size: 80px;
+    display: inline-block;
+    position: relative;
+    letter-spacing: 15px;
+    position: relative;
+}
+
+.time span::after {
+    font-size: 16px;
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    letter-spacing: 2px;
+}
+
+#hrs::after {
+    content: 'HOURS';
+}
+
+#mins::after {
+    content: 'MINS';
+}
+
+#secs::after {
+    content: 'SECS';
+}
