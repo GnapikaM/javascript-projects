@@ -121,24 +121,37 @@ header .score {
 @media (max-width: 1064px) {
   header {
     margin-top: 3rem;
+    flex-direction: column;
   }
 
   #level-title {
-    font-size: 2rem;
+    font-size: 4rem;
+    margin-bottom: 5rem;
   }
 
   header .score {
-    font-size: 2rem;
-    margin-left: 7rem;
+    font-size: 4rem;
+    margin-top: 3rem;
+    margin-left: 0;
+  }
+
+  .score p {
+    font-size: 2.7rem;
   }
 
   .game-pad {
-    margin-top: 2rem;
+    margin-top: 6rem;
     width: 100%;
   }
 
   .btn {
     height: 300px;
     width: 300px;
+  }
+
+  .input {
+    height: 80px;
+    width: 150px;
+    font-size: 30px;
   }
 }
