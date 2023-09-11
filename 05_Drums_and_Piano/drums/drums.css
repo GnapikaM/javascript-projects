@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+  text-align: center;
+  background-color: rgb(40, 49, 73);
+  overflow-y: hidden;
+}
+
+aside {
+  position: absolute;
+  right: 2em;
+  top: 3em;
+  background: #4682A9;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding: 1em;
+  border-radius: 20px;
+  
+  animation: animate 1s ease-in-out infinite;
+}
+
+@keyframes animate {
+  0% {
+      transform: scale(1, 1);
+  }
+  50% {
+      transform: scale(1.05, 1.05);
+  }
+  100% {
+      transform: scale(1, 1);
+  }
+}
+
+aside a {
+  text-decoration: none;
+}
+
+aside a span {
+  margin-bottom: 3em;
+}
+
+aside a .image {
+  height: 6em;
+  width: 12em;
+}
+
+aside a .image img {
+  max-width: 100%;
+}
+
+aside a .name {
+  color: white;
+  font-size: 1.5em;
+}
+
+aside a ion-icon {
+  color: white;
+  margin-left: .5em;
+}
+
+h1 {
+  font-size: 5rem;
+  margin: .5em 0 1em 0;
+  color: #DBEDF3;
+  font-family: "Arvo", cursive;
+  text-shadow: 3px 0 #DA0463;
+}
+
+footer {
+  color: #DBEDF3;
+  font-family: sans-serif;
+}
+
+.w {
+  background-image: url(./images/crash.png);
+}
+
+.a {
+  background-image: url(./images/kick.png);
+}
+
+.s {
+  background-image: url(./images/snare.png);
+}
+
+.d {
+  background-image: url(./images/tom1.png);
+}
+
+.j {
+  background-image: url(./images/tom2.png);
+}
+
+.k {
+  background-image: url(./images/tom3.png);
+}
+
+.l {
+  background-image: url(./images/tom4.png);
+}
+
+.set {
+  margin: 10% auto;
+}
+
+.pressed {
+  box-shadow: 0 3px 4px 0 #DBEDF3;
+  opacity: 0.5;
+}
+
+.drum {
+  outline: none;
+  border: 10px solid #404B69;
+  font-size: 5rem;
+  font-family: 'Arvo', cursive;
+  line-height: 2; 
+  font-weight: 900;
+  color: #DA0463;
+  text-shadow: 3px 0 #DBEDF3;
+  border-radius: 15px;
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  text-align: center;
+  margin: 10px;
+  background-color: white;
+}
+
+
+
+@media (max-width: 1364px) {
+
+  aside a .image {
+    height: 4em;
+    width: 8em;
+  }
+
+  aside a .name {
+    font-size: 1em;
+  }
+}
+
+@media (max-width: 1018px) {
+
+  aside {
+    right: 21em;
+    top: 50em;
+  }
+
+  aside a .image {
+    height: 10em;
+    width: 18em;
+  }
+}

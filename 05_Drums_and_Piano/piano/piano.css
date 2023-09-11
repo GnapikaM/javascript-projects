@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400&display=swap');
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    background: #91C8E4;
+    overflow-y: hidden;
+}
+
+aside {
+    position: fixed;
+    right: 2em;
+    top: 3em;
+    background: #DA0463;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding: 1em;
+    border-radius: 20px;
+    animation: animate 1s ease-in-out infinite;
+}
+
+@keyframes animate {
+    0% {
+        transform: scale(1, 1);
+    }
+    50% {
+        transform: scale(1.05, 1.05);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+}
+
+aside a {
+    text-decoration: none;
+}
+
+aside a .image {
+    height: 6em;
+    width: 6em;
+}
+  
+aside a .image img {
+    max-width: 100%;
+    margin-left: 2em;
+}
+
+aside a .name {
+    color: white;
+    font-size: 1.5em;
+}
+  
+aside a ion-icon {
+    color: white;
+    margin-left: .5em;
+}
+
+.piano h1 {
+    margin: .5em 0 1em 0;
+    font-size: 5rem;
+    color: #DBEDF3;
+    font-family: "Arvo", cursive;
+    text-shadow: 3px 0 #4682A9;
+}
+
+.piano .wrapper {
+    height: 50em;  
+    width: 880px; 
+    margin: 0 auto;
+    padding: 0 60px;
+}
+
+.piano .wrapper .container {
+    margin-top: 5em;
+    padding: 2em;
+    background: #4682A9;
+    border-radius: 20px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .column span {
+    font-weight: 500;
+    margin-right: 15px;
+    font-size: 1.19rem;
+}
+
+.checkbox,
+.brand {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.brand {
+    text-shadow: 1px 0 #91C8E4;
+}
+
+.checkbox input {
+    width: 60px;
+    height: 30px;
+    cursor: pointer;
+    position: relative;
+    appearance: none;
+    border-radius: 30px;
+    background: #749BC2;
+}
+
+.checkbox input::before {
+    content: "";
+    height: 20px;
+    width: 20px;
+    background: #91C8E4;
+    top: 50%;
+    left: 5px;
+    border-radius: inherit;
+    position: absolute;
+    transform: translateY(-50%);
+    transition: all 0.3s ease;
+}
+
+.checkbox input:checked::before {
+    left: 35px;
+    background: #fff;
+}
+
+.piano-keys {
+    margin-top: 2em;
+    display: flex;
+}
+
+.piano-keys .key {
+    cursor: pointer;
+    color: #a2a2a2;
+    position: relative;
+    text-transform: uppercase;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+
+.piano-keys .black {
+    width: 3.25em;
+    height: 8.75em;
+    z-index: 2;
+    margin: 0 -22px 0 -22px;
+    border-radius: 0 0 5px 5px;
+    background: linear-gradient(#333, #000);
+}
+
+.piano-keys .black:active {
+    box-shadow: inset -5px 5px 20px rgba(255, 255, 255, 0.1);
+    background: linear-gradient(to bottom, #000 0%, #434343 100%);
+}
+
+.animation-black {
+    box-shadow: inset -5px 5px 20px rgba(255, 255, 255, 0.1);
+    background: linear-gradient(to bottom, #000 0%, #434343 100%);
+}
+
+.piano-keys .white {
+    width: 4.375em;
+    height: 14.375em;
+    border-radius: 8px;
+    border: 1px solid #000;
+    background: linear-gradient(#fff 96%, #eee 4%);
+}
+
+.piano-keys .white:active {
+    box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+}
+
+.animation-white {
+    box-shadow: inset -5px 5px 20px rgba(0, 0, 0, 0.2);
+    background: linear-gradient(to bottom, #fff 0%, #eee 100%);
+}
+
+.piano-keys .key span {
+    position: absolute;
+    bottom: 10px;
+    width: 100%;
+    font-size: 1.05rem;
+    text-align: center;
+}
+
+.piano-keys .key.hide span {
+    display: none;
+} 
+
+footer {
+    position: fixed;
+    left: 45%;
+    margin-top: -12em;
+    color: black;
+    font-family: sans-serif;
+}
+
+
+
+@media (max-width: 1018px) {
+
+    aside {
+      right: 22em;
+      top: 45em;
+    }
+  
+    aside a .image {
+      height: 14em;
+      width: 17em;
+    }
+    aside a .image img {
+        height: 13em;
+        width: 13em;
+    }
+    footer {
+        left: 40%;
+    }
+  }
