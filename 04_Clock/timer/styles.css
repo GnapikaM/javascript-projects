@@ -86,8 +86,6 @@ label {
 @media (max-width: 678px) {
     .box {
         height: 65vh;
-        left: 50%;
-        top: 30%;
     }
     h1 {
         font-size: 3rem;
