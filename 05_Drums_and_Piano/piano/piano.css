@@ -219,6 +219,8 @@ footer {
         width: 13em;
     }
     footer {
-        left: 40%;
+        left: 37%;
+        top: 80%;
+        font-size: 1.3rem;
     }
   }
