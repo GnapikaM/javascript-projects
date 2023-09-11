@@ -7,7 +7,6 @@ body {
   font-family: 'Poppins', sans-serif;
   text-align: center;
   background-color: rgb(40, 49, 73);
-  overflow-y: hidden;
 }
 
 aside {
@@ -131,27 +130,27 @@ footer {
 
 
 
-@media (max-width: 1364px) {
+@media (max-width: 980px) {
 
-  aside a .image {
-    height: 4em;
-    width: 8em;
+  .set {
+    margin-top: 50rem;
+    transform: rotate(270deg);
   }
 
-  aside a .name {
-    font-size: 1em;
+  .drum {
+    width: 220px;
+    height: 220px;
   }
-}
-
-@media (max-width: 1018px) {
 
   aside {
-    right: 21em;
-    top: 50em;
+    right: 15em;
+    top: 9em;
+    font-size: 1.5em;
   }
 
-  aside a .image {
-    height: 10em;
-    width: 18em;
+  footer {
+    position: absolute;
+    top: 110rem;
+    left: 38%;
   }
 }
