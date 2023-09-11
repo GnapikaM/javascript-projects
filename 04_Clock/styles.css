@@ -97,9 +97,6 @@ h2 {
     .container {
         flex-direction: column;
     }
-}
-
-@media (max-width: 373px) {
     .container>div {
         height: 16rem;
         width: 16rem;
