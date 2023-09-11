@@ -124,15 +124,21 @@ header .score {
   }
 
   #level-title {
-    font-size: 1.5rem;
+    font-size: 2rem;
   }
 
   header .score {
-    font-size: 1.5rem;
+    font-size: 2rem;
     margin-left: 7rem;
   }
 
   .game-pad {
     margin-top: 2rem;
+    width: 100%;
+  }
+
+  .btn {
+    height: 300px;
+    width: 300px;
   }
 }
