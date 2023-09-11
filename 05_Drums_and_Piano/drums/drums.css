@@ -133,8 +133,7 @@ footer {
 @media (max-width: 980px) {
 
   .set {
-    margin-top: 50rem;
-    transform: rotate(270deg);
+    margin-top: 10rem;
   }
 
   .drum {
@@ -143,14 +142,15 @@ footer {
   }
 
   aside {
-    right: 15em;
-    top: 9em;
+    right: 13em;
+    top: 38em;
     font-size: 1.5em;
   }
 
   footer {
     position: absolute;
-    top: 110rem;
-    left: 38%;
+    top: 80rem;
+    right: 24em;
+    font-size: 1.3rem;
   }
 }
