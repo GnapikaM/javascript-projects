@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painting is FUN!!!</title>
+
+    <link rel="stylesheet" href="style.css">
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    
+    <div class="container">
+        <section class="tools-board">
+            <div class="row">
+                <label class="title">Shapes</label>
+                <ul class="options shapes">
+                    <li class="option tool" id="line">
+                        <ion-icon name="remove-outline"></ion-icon>
+                        <span>Line</span>
+                    </li>
+                    <li class="option tool" id="square">
+                        <ion-icon name="square-outline"></ion-icon>
+                        <span>Square</span>
+                    </li>
+                    <li class="option tool" id="rectangle">
+                        <ion-icon name="tablet-landscape-outline"></ion-icon>
+                        <span>Rectangle</span>
+                    </li>
+                    <li class="option tool" id="circle">
+                        <ion-icon name="ellipse-outline"></ion-icon>
+                        <span>Circle</span>
+                    </li>
+                    <li class="option tool" id="triangle">
+                        <ion-icon name="triangle-outline"></ion-icon>
+                        <span>Triangle</span>
+                    </li>
+                    <li class="option">
+                        <input type="checkbox" id="fill-color">
+                        <label for="fill-color">Fill color</label>
+                    </li>
+
+                    <li class="option tool" id="clone-stamp">
+                        <ion-icon name="copy-outline"></ion-icon>
+                        <span>Clone Stamp</span>
+                    </li>                    
+                </ul>
+            </div>              
+
+            <div class="row">
+                <label class="title">Options</label>
+                <ul class="options paint">
+                    <li class="option active tool" id="brush">
+                        <ion-icon name="brush-outline"></ion-icon>
+                        <span>Brush</span>
+                    </li>
+                    <li class="option tool" id="eraser"> 
+                        <i class="fa-solid fa-eraser" style="color: #717171;"></i>
+                        <span>Eraser</span>
+                    </li>
+                    <li class="option">
+                        <input type="range" id="size-slider" min="1" max="30" value="5">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row colors">
+                <label class="title">Colors</label>
+                <ul class="options colors">
+                    <li class="option"></li>
+                    <li class="option selected"></li>
+                    <li class="option"></li>
+                    <li class="option"></li>
+                    <li class="option"></li>
+                    <li class="option">
+                        <input type="color" id="color-pallete" value="#0000FF">
+                    </li>
+                </ul>
+            </div>
+
+            <div class="row buttons">
+                <button class="clear-canvas">Clear Canvas</button>
+                <button class="save-img">Save As Image</button>
+            </div>
+        </section>
+
+        <section class="drawing-board">
+            <div class="undo" id="undo">
+                <ion-icon name="arrow-undo"></ion-icon>
+            </div>
+            <div class="redo" id="redo">
+                <ion-icon name="arrow-redo"></ion-icon>
+            </div>
+            <canvas></canvas>
+        </section>
+    </div>
+
+
+
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
