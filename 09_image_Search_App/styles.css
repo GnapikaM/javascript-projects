@@ -235,12 +235,12 @@ button {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-top: 110px;
+    margin-top: 140px;
 }
 
 .search-result {
     width: 30%;
-    height: auto;
+    height: 200px;
     display: flex;
     flex-direction: column;
     margin: 1rem;
