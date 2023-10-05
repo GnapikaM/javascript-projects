@@ -68,11 +68,6 @@ h1 {
   text-shadow: 3px 0 #DA0463;
 }
 
-footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
-}
-
 .w {
   background-image: url(./images/crash.png);
 }
@@ -145,12 +140,5 @@ footer {
     right: 13em;
     top: 38em;
     font-size: 1.5em;
-  }
-
-  footer {
-    position: absolute;
-    top: 80rem;
-    right: 24em;
-    font-size: 1.3rem;
   }
 }
