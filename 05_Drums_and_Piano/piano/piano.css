@@ -191,14 +191,6 @@ header .column span {
 
 .piano-keys .key.hide span {
     display: none;
-} 
-
-footer {
-    position: fixed;
-    left: 45%;
-    margin-top: -12em;
-    color: black;
-    font-family: sans-serif;
 }
 
 
@@ -217,10 +209,5 @@ footer {
     aside a .image img {
         height: 13em;
         width: 13em;
-    }
-    footer {
-        left: 37%;
-        top: 80%;
-        font-size: 1.3rem;
     }
   }
