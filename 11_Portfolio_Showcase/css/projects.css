@@ -508,7 +508,11 @@ a {
   }
 
   .project .content {
-    padding: 1rem;
+    padding: 0.5rem;
+  }
+
+  .project .content h3 {
+    margin-top: .5rem;
   }
 
   .project .content .buttons a {
