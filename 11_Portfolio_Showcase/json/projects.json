@@ -4,8 +4,8 @@
     "image": "assets/images/portfolio.png",
     "title": "Portfolio Showcase",
     "desc": "This project is a personal portfolio website showcasing web development skills, including HTML, CSS, JavaScript, and project display with filters.",
-    "website": "",
-    "code": ""
+    "website": "https://gnapikam-portfolio.netlify.app/",
+    "code": "https://github.com/GnapikaM/javascript-projects/tree/main/11_Portfolio_Showcase"
   },
   {
     "category": "JavaScript",
