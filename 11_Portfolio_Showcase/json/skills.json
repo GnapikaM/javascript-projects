@@ -1,0 +1,62 @@
+[
+  {
+    "category": "Front-End Developer Skills",
+    "skillName": "HTML",
+    "desc": "Proficient in creating structured and semantically correct web pages using HTML5."
+  },
+  {
+    "category": "Front-End Developer Skills",
+    "skillName": "CSS/SCSS",
+    "desc": "Strong skills in styling web applications with CSS and SCSS for maintainable and responsive design."
+  },
+  {
+    "category": "Front-End Developer Skills",
+    "skillName": "Bootstrap",
+    "desc": "Proficient in using Bootstrap to create responsive and consistent layouts."
+  },
+  {
+    "category": "Front-End Developer Skills",
+    "skillName": "Chakra UI",
+    "desc": "Familiarity with Chakra UI for designing modern and accessible user interfaces."
+  },
+  {
+    "category": "Front-End Developer Skills",
+    "skillName": "JavaScript",
+    "desc": "Proficient in writing JavaScript code to add interactivity and functionality to web pages."
+  },
+  {
+    "category": "Front-End Developer Skills",
+    "skillName": "jQuery",
+    "desc": "Capable in using jQuery for simplifying DOM manipulation and creating interactive elements."
+  },
+  {
+    "category": "Front-End Developer Skills",
+    "skillName": "React",
+    "desc": "Skilled in developing user-friendly, high-performance web applications with React."
+  },
+  {
+    "category": "Additional Skills",
+    "skillName": "Git/GitHub",
+    "desc": "Capable of effectively employing Git/GitHub in collaborative software development."
+  },
+  {
+    "category": "Additional Skills",
+    "skillName": "VS code",
+    "desc": "Adept at effectively using VS Code for collaborative software development."
+  },
+  {
+    "category": "Additional Skills",
+    "skillName": "Figma",
+    "desc": "Proficient in using Figma for designing user interfaces and prototypes."
+  },
+  {
+    "category": "Additional Skills",
+    "skillName": "Java",
+    "desc": "Strong understanding of the Java programming language."
+  },
+  {
+    "category": "Additional Skills",
+    "skillName": "MySQL",
+    "desc": "Proficient in relational database management and SQL queries."
+  }
+]

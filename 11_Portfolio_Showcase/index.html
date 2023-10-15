@@ -1,0 +1,314 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Portfolio</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+
+  <body>
+    <div class="scrollTop" onclick="scrollToTop();">
+      <div class="indicator">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+
+    <header class="gradient-background">
+      <div class="logo">
+        <h2 data-text="MyPortfolio...">MyPortfolio...</h2>
+      </div>
+
+      <div class="toggle"></div>
+      <nav>
+        <ul class="navitems">
+          <li class="nav-item"><a href="#home">Home</a></li>
+          <li class="nav-item"><a href="#about">About</a></li>
+          <li class="nav-item"><a href="#skills">Skills</a></li>
+          <li class="nav-item"><a href="#education">Education</a></li>
+          <li class="nav-item"><a href="#projects">Projects</a></li>
+          <li class="nav-item nav-item-darkmode">
+            <a href="#">Change Theme</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="toggle-theme"></div>
+    </header>
+
+    <div class="smartSlider">
+      <ion-icon name="person"></ion-icon>
+      <div class="icons">
+        <a href="https://wa.me/918688991173"
+          ><ion-icon name="logo-whatsapp"></ion-icon
+        ></a>
+        <a href="tel:8688991173"><ion-icon name="call-outline"></ion-icon></a>
+        <a href="mailto:mgnapikareddy22@gmail.com"
+          ><ion-icon name="mail-outline"></ion-icon
+        ></a>
+        <a href="https://www.linkedin.com/in/gnapikam2122"
+          ><ion-icon name="logo-linkedin"></ion-icon
+        ></a>
+        <a href="https://github.com/GnapikaM"
+          ><ion-icon name="logo-github"></ion-icon
+        ></a>
+      </div>
+    </div>
+
+    <section class="home-section" id="home">
+      <div class="hero-section" id="hero">
+        <div class="content">
+          <h3 data-aos="slide-right" data-aos-offset="100">Hello, I am</h3>
+          <h1 data-aos="slide-right" data-aos-offset="100">
+            <span data-text="Gnapika">Gnapika</span> Mallavaram
+          </h1>
+          <p data-aos="slide-right" data-aos-offset="100">
+            "I am seeking an entry-level developer position to apply my
+            knowledge of HTML, CSS, and JavaScript while working in a
+            collaborative environment. Eager to learn and contribute to create
+            engaging and responsive web applications."
+          </p>
+          <a
+            href="./assets/Gnapika Mallavaram.pdf"
+            class="view-button"
+            data-aos="slide-right"
+            data-aos-offset="50"
+          >
+            <span>View My Resume</span>
+          </a>
+        </div>
+
+        <div class="imageContainer">
+          <div
+            class="amoeba1 gradient-background"
+            data-aos="slide-left"
+            data-aos-offset="50"
+          ></div>
+          <div
+            class="amoeba2 gradient-background"
+            data-aos="slide-left"
+            data-aos-offset="50"
+          ></div>
+          <div class="image" data-aos="slide-left">
+            <img src="assets/images/myImage.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="about-section" id="about">
+      <h1 data-aos="slide-up" data-aos-offset="400">About Me</h1>
+      <div class="about-me">
+        <div class="image" style="--i: 1" data-aos="fade-right">
+          <div class="blob1"></div>
+          <img src="assets/images/about-image.png" alt="" />
+        </div>
+        <div class="content" data-aos="slide-left" data-aos-delay="100">
+          <p>
+            Hello! I'm GNAPIKA MALLAVARAM, and I graduated with a bachelor's
+            degree in electronics and communication. After finishing my studies,
+            I got interested in web development. Even though my college
+            education was more about electronics, I found my real interest in
+            programming and web technology. So, I started learning HTML, CSS,
+            and JavaScript on my own.
+          </p>
+          <p>
+            I enjoy designing websites that are not just functional but also
+            visually appealing and easy to use. I'm determined to get better at
+            web development, especially by mastering JavaScript and it's
+            frameworks.
+          </p>
+          <div class="details">
+            <div class="detail" style="cursor: pointer">
+              <ion-icon name="call"></ion-icon>
+              <span>8688991173</span>
+            </div>
+            <div class="detail">
+              <ion-icon name="mail"></ion-icon>
+              <span
+                ><a href="mailto:mgnapikareddy22@gmail.com"
+                  >mgnapikareddy22@gmail.com</a
+                ></span
+              >
+            </div>
+            <div class="detail">
+              <ion-icon name="logo-github"></ion-icon>
+              <span
+                ><a href="https://github.com/GnapikaM">GitHub Profile</a></span
+              >
+            </div>
+            <div class="detail">
+              <ion-icon name="logo-linkedin"></ion-icon>
+              <span
+                ><a href="https://www.linkedin.com/in/gnapikam2122"
+                  >LinkedIn Profile</a
+                ></span
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="skills-section" id="skills">
+      <h1 data-aos="slide-up" data-aos-offset="200">Tech Stack</h1>
+      <div class="skill-tabs">
+        <div class="skills-container" data-aos="slide-up">
+          <div class="front-end skill-category active">
+            <h3 class="accordion-header">Front-End Developer Skills</h3>
+          </div>
+          <div class="database skill-category">
+            <h3 class="accordion-header">Additional Skills</h3>
+          </div>
+        </div>
+        <div class="display"></div>
+      </div>
+    </section>
+
+    <section class="education-section" id="education">
+      <h1 data-aos="slide-up">Education</h1>
+      <div class="container">
+        <div class="text-box" data-aos="fade-up">
+          <div class="qual">
+            <h3>Bachelor of Engineering</h3>
+            <h4>in Electronics and Communication</h4>
+          </div>
+          <p class="grade">achieved a CGPA of 8.65</p>
+          <p>Acharya Institute of Technology, Bangalore, Karnataka</p>
+        </div>
+        <div class="text-box" data-aos="fade-up" data-aos-delay="400">
+          <div class="qual">
+            <h3>CBSE Class 12 Certificate</h3>
+          </div>
+          <p class="grade">achieved a CGPA of 7.22</p>
+          <p>Accord School, Tirupati, Andhra Pradesh</p>
+        </div>
+        <div class="text-box" data-aos="fade-up" data-aos-delay="800">
+          <div class="qual">
+            <h3>CBSE Class 10 Certificate</h3>
+          </div>
+          <p class="grade">achieved a CGPA of 9.8</p>
+          <p>Accord School, Tirupati, Andhra Pradesh</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="projects-section" id="projects">
+      <h1 data-aos="slide-up">My Projects</h1>
+      <div class="project-container">
+        <div class="project" data-aos="zoom-in" data-aos-delay="100">
+          <img src="assets/images/portfolio.png" alt="" />
+          <div class="content">
+            <h3>Portfolio Showcase</h3>
+            <p>
+              This project is a personal portfolio website showcasing web
+              development skills, including HTML, CSS, JavaScript, and project
+              display with filters.
+            </p>
+            <div class="buttons">
+              <a href="#">Visit Website</a>
+              <a href="#">View Code</a>
+            </div>
+          </div>
+        </div>
+        <div class="project" data-aos="zoom-in" data-aos-delay="200">
+          <img src="assets/images/todo-js.png" alt="" />
+          <div class="content">
+            <h3>To-do List</h3>
+            <p>
+              A web-based task management tool with task creation, editing,
+              completion tracking, and filtering options. Developed using HTML,
+              CSS, and JavaScript, with local storage for data persistence.
+            </p>
+            <div class="buttons">
+              <a
+                href="https://gnapikam.github.io/javascript-projects/03_Todo_List/"
+                >Visit Website</a
+              >
+              <a
+                href="https://github.com/GnapikaM/javascript-projects/tree/main/03_Todo_List"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project" data-aos="zoom-in" data-aos-delay="300">
+          <img src="assets/images/quiz.png" alt="" />
+          <div class="content">
+            <h3>Trivia Challenge</h3>
+            <p>
+              Quick Quiz is a dynamic web app for testing knowledge. It features
+              timed quizzes, score tracking, and a competitive leaderboard,
+              making learning engaging and fun.
+            </p>
+            <div class="buttons">
+              <a href="https://gnapikam-trivia-quiz.netlify.app/"
+                >Visit Website</a
+              >
+              <a
+                href="https://github.com/GnapikaM/javascript-projects/tree/main/10_Trivia_Quiz_App"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </div>
+        <div class="project" data-aos="zoom-in" data-aos-delay="400">
+          <img src="assets/images/food-menu.png" alt="" />
+          <div class="content">
+            <h3>Food Menu Master</h3>
+            <p>
+              Menu App is a React-based, responsive food menu display with
+              category filters, highlighting strong skills in React components
+              and Sass CSS.
+            </p>
+            <div class="buttons">
+              <a href="https://gnapikam-foodmenu.netlify.app/">Visit Website</a>
+              <a
+                href="https://github.com/GnapikaM/React-Projects/tree/main/10_Food_Menu_Master"
+                >View Code</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="seeMore" data-aos="fade-up">
+        <a href="projects.html"><i></i><span>See More Projects</span></a>
+      </div>
+    </section>
+
+    <!-- ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
+    ></script>
+
+    <!-- Font Awesome icons -->
+    <script
+      src="https://kit.fontawesome.com/dd0ca77d48.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="js/script.js"></script>
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>

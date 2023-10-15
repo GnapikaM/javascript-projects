@@ -1,0 +1,202 @@
+[
+  {
+    "category": "JavaScript",
+    "image": "assets/images/portfolio.png",
+    "title": "Portfolio Showcase",
+    "desc": "This project is a personal portfolio website showcasing web development skills, including HTML, CSS, JavaScript, and project display with filters.",
+    "website": "",
+    "code": ""
+  },
+  {
+    "category": "JavaScript",
+    "image": "assets/images/todo-js.png",
+    "title": "To-Do List",
+    "desc": "A web-based task management tool with task creation, editing, completion tracking, and filtering options. Developed using HTML, CSS, and JavaScript, with local storage for data persistence.",
+    "website": "https://gnapikam.github.io/javascript-projects/03_Todo_List/",
+    "code": "https://github.com/GnapikaM/javascript-projects/tree/main/03_Todo_List"
+  },
+  {
+    "category": "JavaScript",
+    "image": "assets/images/quiz.png",
+    "title": "Trivia Challenge",
+    "desc": "Quick Quiz is a dynamic web app for testing knowledge. It features timed quizzes, score tracking, and a competitive leaderboard, making learning engaging and fun.",
+    "website": "https://gnapikam-trivia-quiz.netlify.app/",
+    "code": "https://github.com/GnapikaM/javascript-projects/tree/main/10_Trivia_Quiz_App"
+  },
+  {
+    "category": "React",
+    "image": "assets/images/food-menu.png",
+    "title": "Food Menu Master",
+    "desc": "Menu App is a React-based, responsive food menu display with category filters, highlighting strong skills in React components and Sass CSS.",
+    "website": "https://gnapikam-foodmenu.netlify.app/",
+    "code": "https://github.com/GnapikaM/React-Projects/tree/main/10_Food_Menu_Master"
+  },
+  {
+    "category": "JavaScript",
+    "image": "assets/images/weather.png",
+    "title": "Weather Tracker",
+    "desc": "Utilizing HTML, CSS, and JavaScript, this web app offers real-time weather data from OpenWeather API. It delivers temperature, humidity, wind speed, and weather icons.",
+    "website": "https://gnapikam.github.io/javascript-projects/07_Weather_App/",
+    "code": "https://github.com/GnapikaM/javascript-projects/tree/main/07_Weather_App"
+  },
+  {
+    "category": "JavaScript",
+    "image": "assets/images/paint.png",
+    "title": "Digital Canvas",
+    "desc": "Developed a browser painting tool using HTML, CSS, and JavaScript, enabling users to create digital art with features like shape selection and undo/redo functions.",
+    "website": "https://gnapikam.github.io/javascript-projects/08_Paint%20App/",
+    "code": "https://github.com/GnapikaM/javascript-projects/tree/main/08_Paint%20App"
+  },
+  {
+    "category": "HTML/CSS",
+    "image": "assets/images/tindog.png",
+    "title": "TinDog Project",
+    "desc": "TinDog is a chic web app for dog lovers to connect with nearby dog owners, featuring responsive design using HTML, CSS, Bootstrap, and engaging animations.",
+    "website": "https://gnapikam.github.io/bootstrap-projects/01_TinDog%20Project",
+    "code": "https://github.com/GnapikaM/bootstrap-projects/tree/main/01_TinDog%20Project"
+  },
+  {
+    "category": "HTML/CSS",
+    "image": "assets/images/blog.png",
+    "title": "Recipe Blog Website",
+    "desc": "This responsive recipe blog site features a variety of recipes, an 'About Me' section, and recent posts. Developed with HTML and CSS, it prioritizes user experience on diverse devices.",
+    "website": "https://gnapikam.github.io/HTML-CSS-projects/02-recipe-blog-website/",
+    "code": "https://github.com/GnapikaM/HTML-CSS-projects/tree/main/02-recipe-blog-website"
+  },
+  {
+    "category": "JavaScript",
+    "image": "assets/images/imageSearch.png",
+    "title": "Image Search",
+    "desc": "Explore images effortlessly using this web app, powered by the Unsplash API. It combines responsive design with skills in HTML, CSS, JavaScript, and API integration.",
+    "website": "https://gnapikam.github.io/javascript-projects/09_image_Search_App/",
+    "code": "https://github.com/GnapikaM/javascript-projects/tree/main/09_image_Search_App"
+  },
+  {
+    "category": "HTML/CSS",
+    "image": "assets/images/uber.png",
+    "title": "Uber Clone",
+    "desc": "This is a Uber clone Website made using HTML and CSS only. It is responsive and visually appealing webpage for Uber, showcasing its services, safety features, and easy app downloads.",
+    "website": "https://gnapikam.github.io/HTML-CSS-projects/03-uber-clone/",
+    "code": "https://github.com/GnapikaM/HTML-CSS-projects/tree/main/03-uber-clone"
+  },
+  {
+    "category": "React",
+    "image": "assets/images/react-calculator.png",
+    "title": "React Calculator",
+    "desc": "Developed a responsive calculator using React, featuring real-time arithmetic operations. Demonstrates proficiency in React, JavaScript, and CSS grid layout design.",
+    "website": "https://gnapikam-react-calculator.netlify.app/",
+    "code": "https://github.com/GnapikaM/React-Projects/tree/main/04_React_Calculator"
+  },
+  {
+    "category": "HTML/CSS",
+    "image": "assets/images/layout.png",
+    "title": "Flexbox Layout",
+    "desc": "This project showcases a responsive website layout using HTML and CSS. It features a stylish design with flexible columns, adapting seamlessly to various screen sizes for an optimal user experience.",
+    "website": "https://gnapikam.github.io/HTML-CSS-projects/01-flexbox-layout/",
+    "code": "https://github.com/GnapikaM/HTML-CSS-projects/tree/main/01-flexbox-layout"
+  },
+  {
+    "category": "JavaScript",
+    "image": "assets/images/calculator-js.png",
+    "title": "Calculator",
+    "desc": "A responsive web calculator allowing basic arithmetic operations via keyboard or on-screen buttons. Developed using HTML, CSS for responsiveness, JavaScript for events, and DOM manipulation.",
+    "website": "https://gnapikam.github.io/javascript-projects/01_calculator/",
+    "code": "https://github.com/GnapikaM/javascript-projects/tree/main/01_calculator"
+  },
+  {
+    "category": "JavaScript",
+    "image": "assets/images/random-password-js.png",
+    "title": "Random Password Generator",
+    "desc": "A web app that creates and copies strong passwords. Developed using HTML, CSS, JavaScript, and jQuery for easy password generation and clipboard functionality.",
+    "website": "https://gnapikam.github.io/javascript-projects/02_Random_Password_Generator/",
+    "code": "https://github.com/GnapikaM/javascript-projects/tree/main/02_Random_Password_Generator"
+  },
+  {
+    "category": "JavaScript",
+    "image": "assets/images/clock.png",
+    "title": "Timekeeper",
+    "desc": "A versatile web application featuring a clock with live time, a countdown timer, and a stopwatch. Built using HTML, CSS, and JavaScript, with dynamic UI animations.",
+    "website": "https://gnapikam.github.io/javascript-projects/04_Clock/",
+    "code": "https://github.com/GnapikaM/javascript-projects/tree/main/04_Clock"
+  },
+  {
+    "category": "JavaScript",
+    "image": "assets/images/drums.png",
+    "title": "Musical Instruments",
+    "desc": "Interactive drum kit and piano project with mouse/keyboard inputs, animations, and responsive design. Created using HTML, CSS, and JavaScript.",
+    "website": "https://gnapikam.github.io/javascript-projects/05_Drums_and_Piano/",
+    "code": "https://github.com/GnapikaM/javascript-projects/tree/main/05_Drums_and_Piano"
+  },
+  {
+    "category": "JavaScript",
+    "image": "assets/images/simon.png",
+    "title": "Simon Game",
+    "desc": "Classic memory game: HTML, CSS, jQuery, audio, local storage, and responsive design. Offers dynamic levels, scoring, and a responsive layout.",
+    "website": "https://gnapikam.github.io/javascript-projects/06_Simon_game_using_jquery/",
+    "code": "https://github.com/GnapikaM/javascript-projects/tree/main/06_Simon_game_using_jquery"
+  },
+  {
+    "category": "React",
+    "image": "assets/images/react-todolist.png",
+    "title": "Task Manager",
+    "desc": "Task Manager, a React-based to-do list. Users can add, complete, and delete tasks. Demonstrates React skills, state management, UI design, and CSS.",
+    "website": "https://gnapikam-task-manager.netlify.app/",
+    "code": "https://github.com/GnapikaM/React-Projects/tree/main/09_Task_Manager"
+  },
+  {
+    "category": "React",
+    "image": "assets/images/slideshow.png",
+    "title": "Slide Show Wizard",
+    "desc": "The Slider: A React image slider app with smooth transitions and auto-sliding. Demonstrates React, CSS styling, and dynamic content with state management.",
+    "website": "https://gnapikam-slideshow-wizard.netlify.app/",
+    "code": "https://github.com/GnapikaM/React-Projects/tree/main/08_Slideshow_Wizard"
+  },
+  {
+    "category": "React",
+    "image": "assets/images/tabs.png",
+    "title": "Tabbed Content",
+    "desc": "Built a dynamic React job timeline for easy navigation, highlighting React, state management, and JSON data handling skills.",
+    "website": "https://gnapikam-tabbed-content.netlify.app/",
+    "code": "https://github.com/GnapikaM/React-Projects/tree/main/05_Tabbed_Content"
+  },
+  {
+    "category": "React",
+    "image": "assets/images/userreview.png",
+    "title": "User Reviews",
+    "desc": "Developed a dynamic React job timeline for job details navigation, featuring React, state management, and JSON data handling skills.",
+    "website": "https://gnapikam-userreview.netlify.app/",
+    "code": "https://github.com/GnapikaM/React-Projects/tree/main/06_User_Reviews"
+  },
+  {
+    "category": "React",
+    "image": "assets/images/tour.png",
+    "title": "Tour Explorer",
+    "desc": "A React-based Tours App displaying tours with removal and refresh options. Demonstrates React state management and dynamic UI updates.",
+    "website": "https://gnapikam-tour-explorer.netlify.app/",
+    "code": "https://github.com/GnapikaM/React-Projects/tree/main/07_Tour_Explorer"
+  },
+  {
+    "category": "React",
+    "image": "assets/images/calculator.png",
+    "title": "Basic Calculator",
+    "desc": "Created a React calculator web app with a user-friendly interface, emphasizing React, JavaScript, and responsive web development skills for essential functions.",
+    "website": "https://gnapikam-calculator.netlify.app/",
+    "code": "https://github.com/GnapikaM/React-Projects/tree/main/01_Basic_Calculator"
+  },
+  {
+    "category": "React",
+    "image": "assets/images/accordion.png",
+    "title": "Accordion Magic",
+    "desc": "React app featuring an interactive FAQ section. Users can expand/collapse questions for answers. This project highlights my skills in React, JavaScript, CSS, SCSS, JSON data integration.",
+    "website": "https://gnapikam-accordion.netlify.app/",
+    "code": "https://github.com/GnapikaM/React-Projects/tree/main/03_Accordion_Magic"
+  },
+  {
+    "category": "React",
+    "image": "assets/images/text.png",
+    "title": "Text Generator",
+    "desc": "Cool React app generates custom lorem ipsum paragraphs for dynamic content generation. This project highlights my skills in React, state management, form handling, and responsive design.",
+    "website": "https://gnapikam-text-generator.netlify.app/",
+    "code": "https://github.com/GnapikaM/React-Projects/tree/main/02_Text_Generator"
+  }
+]
